@@ -1,0 +1,8 @@
+#ignore folder file
+file/
+
+#ignore folder js/audio
+js/audio
+
+#ignore folder js/library/eng
+js/library/eng

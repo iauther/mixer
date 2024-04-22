@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>web</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            font-family: '微软雅黑';
+        }
+        body{
+            overflow-y : hidden;
+        }
+        input,textarea,select{
+            outline: medium;
+            padding: 0;
+            margin: 5px;
+        }
+        #textInput{
+            margin: 0;
+        }
+        select {
+            appearance:none;
+            -moz-appearance:none;
+            -webkit-appearance:none;
+            cursor: pointer;
+        }
+        #render{
+            display: block;
+            width : 100%;
+            height : 100%;
+        }
+        input::-webkit-outer-spin-button,
+        input::-webkit-inner-spin-button{
+            -webkit-appearance: none !important;
+            margin: 0;
+        }
+        input[type="number"]{-moz-appearance:textfield;}
+    </style>
+
+</head>
+<!--<body oncontextmenu="return false"> 可以关闭页面的右键选择菜单的功能-->
+<body>
+
+<script>
+    var version = Math.random();
+    document.write("<script type='text/javascript' src='./js/library/pixi.min.js'></scri"+"pt>");
+//    document.write("<script type='text/javascript' src='./file/pixi.js?v="+version+"'></scri"+"pt>");
+    document.write("<script type='text/javascript' src='./js/config.js?v="+version+"'></scri"+"pt>");
+    document.write("<script type='text/javascript' src='./js/res/lang.js?v="+version+"'></scri"+"pt>");
+    document.write("<script type='text/javascript' src='./js/res/palette.js?v="+version+"'></scri"+"pt>");
+    document.write("<script type='text/javascript' src='./js/res/font.js?v="+version+"'></scri"+"pt>");
+    document.write("<script type='text/javascript' src='./js/data/local.js?v="+version+"'></scri"+"pt>");
+    document.write("<script type='text/javascript' src='./js/data/data.js?v="+version+"'></scri"+"pt>");
+    document.write("<script type='text/javascript' src='./js/data/parameter.js?v="+version+"'></scri"+"pt>");
+    document.write("<script type='text/javascript' src='./js/library/demands.js?v="+version+"'></scri"+"pt>");
+    document.write("<script type='text/javascript' src='./js/library/instantiationData.js?v="+version+"'></scri"+"pt>");
+    document.write("<script type='text/javascript' src='./js/data/testData.js?v="+version+"'></scri"+"pt>");
+    document.write("<script type='text/javascript' src='./js/library/dsp.js?v="+version+"'></scri"+"pt>");
+    document.write("<script type='text/javascript' src='./js/widget/shape.js?v="+version+"'></scri"+"pt>");
+    document.write("<script type='text/javascript' src='./js/widget/listBox.js?v="+version+"'></scri"+"pt>");
+    document.write("<script type='text/javascript' src='./js/widget/Uploader.js?v="+version+"'></scri"+"pt>");
+    document.write("<script type='text/javascript' src='./js/kobble.js?v="+version+"'></scri"+"pt>");
+</script>
+<!--<script src="./js/library/pixi.min.js" ></script>-->
+<!--<script src="./js/config.js"></script>-->
+<!--<script src="./js/res/lang.js" ></script>-->
+<!--<script src="./js/res/palette.js" ></script>-->
+<!--<script src="./js/res/font.js" ></script>-->
+<!--<script src="./js/data/local.js" ></script>-->
+<!--<script src="./js/data/data.js"></script>-->
+<!--<script src="./js/data/parameter.js"></script>-->
+<!--<script src='./js/library/demands.js'></script>-->
+<!--<script src='./js/library/instantiationData.js'></script>-->
+<!--<script src='./js/data/testData.js'></script>-->
+<!--<script src="./js/library/dsp.js"></script>-->
+<!--<script src="./js/widget/shape.js"></script>-->
+<!--<script src="./js/widget/listBox.js"></script>-->
+<!--<script src="./js/widget/Uploader.js"></script>-->
+<!--<script src="./js/kobble.js"></script>-->
+</body>
+</html>

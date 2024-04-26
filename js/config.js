@@ -1,6 +1,6 @@
 var ip_port = '54321';
 var webPowerControl = {
-    SOCKET : true,
+    SOCKET : false,
     URL : true,
     LOGIN : true,
     LEVELS : true
